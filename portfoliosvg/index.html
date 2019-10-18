@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Samira Esquina</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&amp;display=swap'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="main.css">
+</head>
+
+<header id="header" class="menu-container">
+
+  <!--   Logo -->
+  <div class="logo-box">
+    <h1 id="logo-text">Samira</h1>
+  </div>
+  <!--   Logo -->
+
+  <!--   navbar -->
+  <nav id="navbar">
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+    <ul class="menu">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#work" class="nav-link">Work</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+  <!--   navbar -->
+</header>
+<!-- header ends -->
+
+<main id="welcome-section" class="container">
+  <section class="hero container">
+    <h1 class="hero-title-primary">Hi, I'm Samira</h1>
+    <p class="hero-title-sub">I Design & Develop For The Web</p>
+    <p class="hero-title-me"><br>Websites don't have to be static, I make pages come to life. My emphasis is on making sites that are responsive and intuitive. I care a lot about user experience, minimalism, collaboration and clean code.</p>
+  </section>
+  <div class="hero-image container">
+    <figure>
+      <img class="img-circle" src="https://static.vecteezy.com/system/resources/previews/000/518/198/non_2x/woman-working-with-computer-bright-colorful-vector-illustration.jpg" alt="Woman working on computer">
+
+
+    </figure>
+  </div>
+
+</main>
+<!--Waves Container-->
+<!-- CSS Waves from goodkatz (https://codepen.io/goodkatz/pen/LYPGxQz) -->
+<div>
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+    </g>
+  </svg>
+</div>
+<!--Waves end-->
+
+<section id="projects">
+  <h2 id="work" class="projects-title">Work</h2>
+  <div class="project-container">
+    <div class="blog-card">
+      <div class="meta">
+        <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+        <ul class="details">
+          <li class="tags">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="description">
+        <h1>Game of Thrones Quiz</h1>
+        <h2>JavaScript, jQuery, HTML, CSS</h2>
+        <p> Quiz App Based on the HBO Series Game of Thrones</p>
+
+        <p class="read-more">
+          <a href="https://sesquina.github.io/GameOfThronesQuizApp/" target="_blank" class="cta">Live Site</a>
+        </p>
+        <p class="read-more">
+          <a href="https://github.com/Sesquina/GameOfThronesQuizApp" target="_blank" class="cta">Github Repo</a>
+        </p>
+      </div>
+    </div>
+    <div class="blog-card alt">
+      <div class="meta">
+        <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+        <ul class="details">
+          <li class="tags">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="description">
+        <h1>Hero Search</h1>
+        <h2>HTML, CSS, JavaScript & JSON</h2>
+        <p>WebApp using the MarvelAPI to pull character information and stories. Coming Soon.</p>
+        <p class="read-more">
+          <a href="#">Live Site: Coming Soon</a>
+        </p>
+        <p class="read-more">
+          <a href="#">Github Repo: Coming Soon</a>
+        </p>
+      </div>
+    </div>
+
+
+
+</section>
+
+<div class="footer-wrapper">
+  <section class="contact-container">
+    <h2 id="contact" class="contact-title">Let's Talk</h2>
+    <div class="social-container">
+      <ul class="social-icons">
+        <li><a href="https://github.com/Sesquina" target="_blank" class="icon-link"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/samira-esquina-27997b148/" target="_blank" class="icon-link"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="mailto:samiraesquina@gmail.com" method="post" enctype="text/plain"><i class="fa fa-envelope"></i></a></li>
+      </ul>
+    </div>
+  </section>
+</div>
